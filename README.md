@@ -80,15 +80,15 @@ A Decision Tree regressor from PySpark MLlib was used for model training. The da
 
 We utilized PySpark to aggregate a dataset, generating key insights and transforming raw data into meaningful information that elucidates sales distributions and market dynamics within the supermarket sector. After preparing the final dataset, we used pandas, Matplotlib, and Seaborn to create visualizations. This big data processing and analysis allowed us to effectively summarize and visualize crucial business metrics.
 
-![Sales Analysis](images/sales_analysis.png)
+![Sales Analysis](images/sales-analysis.png)
 
 The resulting visualizations distinctively highlight supermarket sales. The pie chart shows that health products and home goods are the most popular, commanding approximately 23% and 26.2% of the market respectively. Drinks also make a significant contribution, while bakery items have the smallest share of 1.3%. In the bar chart, Sains leads with total sales of approximately 3.20 million, closely followed by ASDA at around 3.10 million, with Aldi at the lower end with about 0.25 million.
 
-![Top Products](images/top_products.png)
+![Top Products](images\top_10_prods.png)
 
 The top 10 selling products overall and across specific supermarkets reveal distinct consumer preferences, reflecting both overall trends and individual supermarket demographics. Globally, high-end electronics, personal care items, and home cleaning products dominate, with items like the Xbox Series X Console, Oral-B toothbrushes, and Shark vacuum cleaners leading the sales.
 
-![Top Product Categories](images/top_product_categories.png)
+![Top Product Categories](images\top_10_prod_cats.png)
 
 The sales data reveals a dominant preference for non-own brand products across various supermarkets, accounting for around 82% of total sales, compared to about 18% for own brand products. This trend is almost consistent across major retailers like Sains, Aldi, Tesco, and Morrisons, where non-own brands significantly outperformed own brands.
 
@@ -96,7 +96,7 @@ The sales data reveals a dominant preference for non-own brand products across v
 
 We employed a number of key performance indicators (KPIs) to assess our model’s effectiveness on the test dataset. Strong fit was demonstrated by the remarkable 0.9861 obtained by the R-squared (R²) statistic, which measures the amount of variance in the dependent variable that is explained by the independent variables. The average departure of the predictions from the actual data was indicated by the Root Mean Squared Error (RMSE) of 11.2828. The average squared difference was measured by the Mean Squared Error (MSE) of 127.301, while the average absolute deviation was shown by the Mean Absolute Error (MAE) of 8.12435. The map displaying the alignment between projected and actual values demonstrates the great prediction accuracy and precision of our model, which are highlighted by these measures.
 
-![Evaluating Model Performance](images/evaluating_model_performance.png)
+![Evaluating Model Performance](images/results.png)
 
 ## Contribution Report
 
